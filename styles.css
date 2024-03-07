@@ -299,7 +299,7 @@ h5 {
 
 @media (max-width: 480px) {
   .menu-icon {
-    display: block;
+    display: flex;
     cursor: pointer;
     margin-left: 20px; 
   }
@@ -322,11 +322,11 @@ h5 {
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   p {
-    font-size: 14px;
+    font-size: 18px;
   }
 
 }
