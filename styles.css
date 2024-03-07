@@ -301,7 +301,7 @@ h5 {
   .menu-icon {
     display: block;
     cursor: pointer;
-    margin-right: 20px; /* Adjust margin as needed */
+    margin-left: 20px; 
   }
   
   .line {
@@ -313,12 +313,20 @@ h5 {
 
   #siteLogo {
     width: 200px; /* Adjust logo width */
-    height: auto; /* Maintain aspect ratio */
-    margin: 10px; /* Adjust margin as needed */
+    height: auto;
+    margin: 10px; 
   }
 
   nav ul li a {
     display: none;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
   }
 
 }
