@@ -315,4 +315,9 @@ h5 {
     height: auto; /* Maintain aspect ratio */
     margin: 10px; /* Adjust margin as needed */
   }
+  
+  nav ul li a {
+    display: none;
+  }
+
 }
