@@ -297,24 +297,14 @@ h5 {
 }
 
 @media (max-width: 480px) {
-  .header {
-    display: none; 
-  }
-
-  #siteLogo {
-    width: 100px; 
-    height: auto; 
-    margin: 10px; 
-  }
-
-  nav ul li a {
-    display: none; 
+  .header nav ul {
+    display: none; /* Hide the navigation links */
   }
 
   .menu-icon {
-    display: block;
+    display: block; /* Display the menu icon */
     cursor: pointer;
-    margin-right: 20px; 
+    margin-right: 20px; /* Adjust margin as needed */
   }
   
   .line {
