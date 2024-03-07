@@ -174,7 +174,8 @@ h3 {
 .loc-hours-contact {
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
+  margin-top: -410px;
+  margin-bottom: 60px;
 }
 
 .location,
@@ -194,15 +195,14 @@ h4 {
 }
 
 .image-container {
-  margin-right: 20px;
-  margin-top: -350px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+  margin-left: 50px;
 }
 
 .image-container img {
   width: 40%;
   height: auto;
-  margin-left: 100px;
+  margin-top: 80px;
 }
 
 .footer {
@@ -236,4 +236,88 @@ h5 {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #siteLogo {
+    margin-bottom: 20px;
+  }
+
+  nav ul li a {
+    font-size: 24px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .loc-hours-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .image-container {
+    width: 80%;
+    margin: 20px auto;
+    margin-top: 20px;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .location h2,
+  .hours h3,
+  .contact h4 {
+    font-size: 30px;
+  }
+
+  .location,
+  .hours,
+  .contact {
+    flex: 1;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    display: none; 
+  }
+
+  #siteLogo {
+    margin: 20px auto; 
+    display: block; 
+  }
+
+  nav ul li a {
+    display: none; 
+  }
+
+  .menu-icon {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px; 
+  }
+  
+  .line {
+    width: 30px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+  }
 }
