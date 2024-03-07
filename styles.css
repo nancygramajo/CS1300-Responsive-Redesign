@@ -20,6 +20,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: row;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
@@ -311,11 +312,11 @@ h5 {
   }
 
   #siteLogo {
-    width: 100px; /* Adjust logo width */
+    width: 200px; /* Adjust logo width */
     height: auto; /* Maintain aspect ratio */
     margin: 10px; /* Adjust margin as needed */
   }
-  
+
   nav ul li a {
     display: none;
   }
